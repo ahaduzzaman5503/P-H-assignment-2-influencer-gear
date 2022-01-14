@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}    
+/* =====-- Header start ===== */
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .navber ul {
+        display: flex;
+        justify-self: start;
+    }
+    .navber ul li {
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .navber ul li a{
+        margin-right: 10px;
+        padding: 5px 10px;
+        font-size: 25px;
+        margin-left: 0;
+        text-transform: capitalize;
+    }
+    /* =====-- Header End ===== */
+
+    /* =====-- Text and camera start ===== */
+    /* =====-- Text and camera End ===== */
+
+    /* =====-- Companys logo Start ===== */
+    /* =====-- Companys logo End ===== */
+
+    /* =====-- Collection list start ===== */
+    /* =====-- Collection list End ===== */
+
+    /* =====-- Ownself Design start ===== */
+    /* =====-- Ownself Design End ===== */
+
+    /* =====-- Footer Start ===== */
+    /* =====-- Footer End ===== */
