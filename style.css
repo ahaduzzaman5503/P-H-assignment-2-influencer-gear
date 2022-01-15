@@ -10,7 +10,7 @@ body{
     width: 80%;
         margin: 0 auto;
         padding: 20px 0;
-        box-shadow: 5px 5px 5px whitesmoke;
+        /* box-shadow: 5px 5px 5px whitesmoke; */
 } 
 /* =====-- Header start ===== */
     header {
@@ -70,9 +70,13 @@ body{
         font-size: 20px;
         padding: 8px 24px;
         border-radius: 10px;
-        background-color: #E02C6D;
+        background-color: #b33160;
         border: none;
         margin-top: 15px;
+    }
+
+    .influencer-text button:hover{
+        background-color: #6d203c;
     }
     .influencer-text button i{ 
         margin-left:10px ;
@@ -91,23 +95,166 @@ body{
          display: flex;
          flex-direction: row-reverse;
          justify-content: space-around;
+         box-shadow: inherit;
     }
     
     .top-line, .bottom-line{
         width: 80%;
         margin: 0 auto;
-        height: 1px;
-        background-color: rgba(65, 63, 63, 0.164);
+        height: 3px;
+        background-color: rgba(65, 31, 158, 0.329);
+        border-radius: 5px;
     }
 
-   
     /* =====-- Companys logo End ===== */
 
     /* =====-- Collection list start ===== */
+
+    .popular-collection h1 {
+        text-align: center;
+        font-size: 35px;
+        padding: 20px 0;
+    }
+
+        .collection-list{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+        }
+
+        .single-collection{
+            box-shadow: 10px 10px 10px #87837b;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .collection-text {
+            padding: 15px;
+            margin-bottom: 2px;
+        }
+        .collection-text h2{
+                font-size: 30px;
+                margin-bottom: 12px;
+        }
+
+        .star-rating .fill{
+            color: tomato;
+            font-size: 15px;
+        }
+        .star-rating .unfill{
+            color: gray;
+            font-size: 15px;
+            margin-right: 10px;
+        }
+
+        .collection-text h4 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .single-image img{
+            width: 100%;
+        }
+
+        button.custon-button {
+            font-size: 16px;
+            margin-left: 80%;
+            padding: 5px 10px;
+            border-radius: 10px;
+            background-color: #E02C6D;
+            color: white;
+            border: none;
+        }
+        
+    button.custon-button:hover{
+background-color: white;
+ color: #E02C6D;
+          
+    }
     /* =====-- Collection list End ===== */
 
     /* =====-- Ownself Design start ===== */
+
+        .influencer-future{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+
+        .future-text{
+            width: 50%;
+            box-shadow: 3px 3px 3px gray;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .future-text h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .future-picture{
+            width: 30%;
+            box-shadow: 3px 3px 3px gray;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .wow-btn{
+        font-size: 20px;
+        padding: 8px 24px;
+        border-radius: 10px;
+        background-color: #E02C6D;
+        border: none;
+        margin-top: 15px;
+        }
+
     /* =====-- Ownself Design End ===== */
 
-    /* =====-- Footer Start ===== */
+    /* =====-- Footer Start =====*/
+
+  
+    .footer-text{
+            justify-content: center;
+            align-items: center;
+            background-color: #0A0826;
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+    .social-media{
+        background-color: #0A0826;
+        padding-bottom: 20px;
+    }
+
+    .icon{
+        background-color: #0A0826;
+    }
+
+     ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li{
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        ul li a {
+            padding: 10px;
+            line-height: 50px;
+            color: blanchedalmond;
+        }
+
+        ul li a i{
+            font-size: 50px;
+        }
+
+
+
     /* =====-- Footer End ===== */
