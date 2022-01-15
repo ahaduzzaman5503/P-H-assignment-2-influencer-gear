@@ -41,6 +41,7 @@ body{
         display: flex;
         justify-content: space-between;
         padding: 30px 0;
+        margin-bottom: 20px;
     }
 
     .influencer-text {
@@ -80,6 +81,26 @@ body{
     /* =====-- Text and camera End ===== */
 
     /* =====-- Companys logo Start ===== */
+
+    .companys-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 20px;
+    }
+    .company-logo{
+         display: flex;
+         flex-direction: row-reverse;
+         justify-content: space-around;
+    }
+    
+    .top-line, .bottom-line{
+        width: 80%;
+        margin: 0 auto;
+        height: 1px;
+        background-color: rgba(65, 63, 63, 0.164);
+    }
+
+   
     /* =====-- Companys logo End ===== */
 
     /* =====-- Collection list start ===== */
